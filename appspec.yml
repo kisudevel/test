@@ -2,10 +2,10 @@ version: 0.0
 os: linux
 files:
   - source: /
-    destination: /home/ubuntu/deploy
+    destination: /home/ec2-user/test
     overwrite: yes
 permissions:
-  - object: /home/ubuntu/deploy
+  - object: /home/ec2-user/test
     owner: root
     group: root
     mode: 755

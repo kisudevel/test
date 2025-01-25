@@ -1,7 +1,3 @@
-REPOSITORY=/home/ubuntu/deploy
-
+REPOSITORY=/home/ec2-user/test
 cd $REPOSITORY 
-
-sudo yarn install
-
 sudo pm2 reload all
